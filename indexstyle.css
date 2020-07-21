@@ -2,7 +2,39 @@ body{
     background-color: rgb(164, 214, 214);
     
 }
-h3{
+
+h2{
     text-align: center;
     text-decoration: rgb(218, 132, 132);
+}h3{
+    text-align: center;
+    text-decoration: rgb(218, 132, 132);
+}
+.impot_quote{
+    
+    font-size: 25px;
+    border: dotted solid 9px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 30x;
+    border-radius: 10px;
+    background-color:rgb(186, 139, 230);
+    line-height: 25px;
+    color:rgb(173, 68, 68);
+    border: fuchsia;
+    font-family:elephanta ;
+}
+.loginedit{
+    margin-left: 20px;
+    margin-right: 35px;
+    line-height: 10px;
+    background-color: rgb(234, 225, 241);
+    padding-left: 45px;
+}
+.loginname{
+    background-origin: 20px;
+    padding-left: 25px;
+}
+.loginpassword{
+padding-left: 25px;
 }
