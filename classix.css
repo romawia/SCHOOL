@@ -41,6 +41,19 @@ ul li:hover ul li{
     display: block;
 }
 
+.chapter{
+    color: rgb(18, 18, 19);
+    text-align: center;
+    line-height: 20px;
+}
+.content{
+    color: rgb(13, 14, 14);
+    background-color: rgb(238, 229, 238);
+}
+.whole{
+    background-color: black;
+}
+
 
 
 
