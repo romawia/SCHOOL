@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+.mainp{
+    text-align: left;
+    display: flex;
+
+    flex-basis: 9px;
+    
+}
+.last{
+    text-align: justify;
+}
