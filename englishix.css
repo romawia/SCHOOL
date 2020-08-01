@@ -1,12 +1,28 @@
 .chapter{
-    color: rgb(18, 18, 19);
     text-align: center;
-    line-height: 20px;
-}
-.content{
-    color: rgb(13, 14, 14);
-    background-color: rgb(238, 229, 238);
 }
 .whole{
-    background-color: black;
+    font-size:9px;
+    border:solid indigo;
+}
+.tutor{
+    text-align: center;
+}
+.sec{
+text-align: center;
+}
+.secteach{
+    border: solid red 3px;
+    border-style: dotted;
+    font-size: 20px;
+    background-color: white;
+}
+.secarea{
+    border: solid blue 12px;
+    background-color: burlywood;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+.current{
+    text-align: center;
 }
