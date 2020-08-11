@@ -2,18 +2,19 @@
 body, html{
     height: 100%;
    }
-.background{
+.bg{
     background-image: url(IMAGES/schooldesk.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center center center;
+    background-attachment: fixed;
     height: 100%;
 }
 h4{
     text-align: center;
     margin:0;
 }
-h2{
+.mob{
     margin: 0;
 }
 h2{
@@ -31,6 +32,8 @@ h3{
     color: white;
 }
 .impot_quote{
+    height: 100%;
+    width: 100%;
     border-radius: 2px;
     background-color: rgb(61, 11, 11);
     margin-top: initial;
