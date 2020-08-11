@@ -1,32 +1,59 @@
-body{
-    background-color: rgb(164, 214, 214);
-    
-}
 
+body{
+    padding: 0;
+    display: block;
+    margin: 0;
+
+    border-style: inset;
+    background-image: url(IMAGES/schooldesk.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center center center;
+}
+H4{
+    text-align: CENTER;
+    margin: 0;
+}
 h2{
+    margin: 0;
+}
+h2{
+    margin: 0;
     text-align: center;
     text-decoration: rgb(218, 132, 132);
-}h3{
+}
+h3{
+    margin: 0;
     text-align: center;
     text-decoration: rgb(218, 132, 132);
+}
+.notice{
+    text-align: center;
+    color: white;
 }
 .impot_quote{
-    font-size: 15px;
-    border: dotted solid 9px;
+    border-radius: 2px;
+    background-color: rgb(61, 11, 11);
+    margin-top: initial;
+    font-weight:bolder;
+    font-size: 18px;
+    border: solid 9px;
     text-align: center;
     padding-top: 3px;
     padding-bottom: 30x;
     border-radius: 10px;
-    background-color:rgb(142, 116, 168);
-    line-height: 28px;
-    color:rgb(243, 222, 222);
-    border: rgb(136, 89, 136);
-    font-family:elephanta ;
+    opacity: .3;
+    line-height: 22px;
+    color: white;
+    font-family:arial;
+    text-align: left;
 }
 .loginedit{
     border-radius: 5px;
     background-color: rgb(234, 225, 241);
     padding-left: 2px;
+    opacity: .6;
     
 }
 .loginname{
