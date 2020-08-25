@@ -21,6 +21,13 @@ h4{
 .mob{
     margin: 0;
 }
+.omittur{
+    width: auto;
+    height:fit-content;
+    text-align: center;
+    background-color:  yellow;
+    border: solid yellow 2px;
+}
 h2{
     margin:0;
     text-align: center;
@@ -88,12 +95,12 @@ background: #607d8b;
 {
     opacity: 9;
     position: absolute;
-    top: calc(50% - 150px);
-    left: calc(50% - 100px);
+    top: calc(50% - 70px);
+    left: calc(100% - 50px);
     transform: translate(-50%, -50%);
     transform: perspective(1000px) rotateY(-45deg);
-    width: 200px;
-    height: 300px;
+    width: 100px;
+    height: 200px;
     transform-style: preserve-3d;
 }
 
