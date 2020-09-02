@@ -3,6 +3,79 @@ body, html{
     padding:0px;
 
    }
+.imagess{
+display:block;
+box-shadow: -10 -20;
+text-align: center;
+
+   }
+   @keyframes controlimage
+   {
+       0%
+       {
+            transform: rotateZ(45deg);
+       }
+       80%{
+           transform: rotateY(270deg);
+       }
+       95%{
+           transform: rotateX(360deg);
+       }
+       100%{
+           color: rgb(243, 174, 174);
+       }
+   }
+.imagesss{
+    display: block;
+    text-align: center;
+   } 
+   @keyframes welcome
+   {
+       0%{
+           color: red;
+       }
+       
+        25%{
+            color: white;
+        }
+        
+            50%{
+                color: black;
+            }
+
+            75%
+            {
+                color:white
+            }
+            
+                80%{
+                    color: red;
+                }
+                
+        90%{
+        
+          color: white;
+        }
+        91%{
+        
+            color:green;
+          }
+          92%{
+        
+            color:blue;
+          }
+          93%{
+        
+            color: violet;
+          }
+        95%{
+            color: red;
+           }
+           100%{
+            color:chartreuse;
+           }  
+          
+        }    
 .bg{
     overflow: auto;
     height: 100%;
@@ -10,16 +83,22 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: cover;
-    background-attachment: local;
-    
-   
+    background-attachment: local;  
 }
+.wc{
+    filter: blur(1px);
+    animation: welcome 4s linear infinite;
+    text-shadow: 2px -3px;
+}
+
 h4{
     text-align: center;
     margin:0;
 }
 .mob{
+    box-shadow: -7px 6px;
     margin: 0;
+    animation: controlimage 2s linear;
 }
 .omittur{
     opacity: .7;

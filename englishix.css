@@ -70,3 +70,9 @@ text-decoration: underline;
     min-width: 10%;
         height: 25%;
 }
+.firstword{
+    font-size:20px;
+    line-height: 25px;
+    color: red;
+    text-decoration: underline;
+}
