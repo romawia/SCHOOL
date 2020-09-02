@@ -98,7 +98,7 @@ h4{
 .mob{
     box-shadow: -7px 6px;
     margin: 0;
-    animation: controlimage 2s linear;
+    animation: controlimage 3s linear 2s;
 }
 .omittur{
     opacity: .7;
