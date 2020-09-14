@@ -266,3 +266,30 @@ p{
     font-stretch: expanded;
     font-weight: bold;
 }
+.bgroad{
+    position: relative;
+    background: url(IMAGES/road111.png);
+    background-size: cover;
+    height: 80vh;
+    border: #fff;
+    width: 100%;
+    background-position: 0 0;
+    background-repeat: repeat-y;
+    animation: animate 5s linear infinite;
+}
+.buss{
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+}
+@keyframes animate{
+        from{
+            background-position: 0 0;
+        }
+
+        to{
+            background-position:100% 0;
+        }
+
+}
