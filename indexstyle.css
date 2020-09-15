@@ -270,18 +270,18 @@ p{
     position: relative;
     background: url(IMAGES/road111.png);
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     border: #fff;
     width: 100%;
     background-position: 0 0;
     background-repeat: repeat-y;
-    animation: animate 5s linear infinite;
+    animation: animate 950ms linear infinite;
 }
 .buss{
-    height: 60px;
+    height: 100px;
     position: absolute;
     bottom: 0px;
-    left: 25px;
+    left: 200px;
 }
 @keyframes animate{
         from{

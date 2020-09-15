@@ -1,32 +1,17 @@
 body{
     background-color: rgb(248, 237, 218);
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 40px;
     text-align: center;
-    line-height: 0em;
     text-align: center;
 }
 h2{
-    line-height: normal;
-    font-style: italic;
+    min-width: 10%;
+    padding: 0;
     text-align: center;
-}
-h3{
-    line-height: normal;
-    font-style: italic;
-    text-align: center;
-}
+    display: inline;
 
-h5{
-    line-height: normal;
-    text-align:left;
-    justify-content: left;
+
 }
-h4{
-    line-height: normal;
-    text-align:left;
-    justify-content: left;
-}
-b{
-    margin-top: 2%;
+.chapter2{
+    text-align: center;
 }
