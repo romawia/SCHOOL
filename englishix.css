@@ -71,15 +71,15 @@ text-decoration: underline;
     height: 25%;
 }
 .firstword{
-    margin-right: 170px;
-    margin-left: 170px;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-left: 0%;
     padding-right: 0%;
     align-items: center;
     box-sizing: border-box;
     border: 2px solid rgb(37, 34, 34);
-    font-size:9px;
-    line-height: 10px;
+    font-size:4px;
+    line-height: 7px;
     color: red;
     text-decoration: underline;
     overflow: hidden;
